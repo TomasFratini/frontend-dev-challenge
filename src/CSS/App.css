@@ -1,0 +1,118 @@
+.nav {
+    background-color: #F1F1F1;
+    height: 100px;
+}
+
+/* CSS HERO */
+
+.img-hero {
+    background-image: url("../IMG/imghero.png");
+}
+
+.cont-hero {
+    padding-right: 700px;
+}
+
+.tittle-hero {
+    font-size: 50px;
+}
+
+.text-hero {
+    font-size: 25px;
+}
+
+/* CSS NOTA */
+
+.nota-dimension {
+    height: 300px;
+    width: 100%;
+}
+.nota {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.nota-text {
+    font-size: 20px;
+    font-style: italic;
+}
+
+/* CSS FAQ */
+
+.content {
+    background-color: #E4E4E4;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.card-title {
+    color: #486DB7;
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+
+.faq-text {
+    font-size: 20px;
+    text-align: center;
+}
+
+.collapse-title {
+    font-size: 25px;
+    text-align: center;
+}
+
+
+/* CSS FORMS */
+
+.content-forms {
+    background-color: #E4E4E4;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-items: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.card-text {
+    font-size: 20px;
+    height: 200px;
+}
+.img {
+    width: auto;
+    height: 180px;
+}
+
+/* CSS FOOTER */
+
+.color-footer {
+    background-color: #7D7D7D;
+}
+
+.content-footer {
+    height: 720px;
+}
+
+.newsletter-footer {
+    height: 350px;
+}
+.img {
+    width: auto;
+}
+
+.text-footer {
+    font-size: 20px;
+    padding-bottom: 15px;
+}
+
+
+.newsletter-title {
+    font-size: 25px;
+    color: white;
+}
+
+.newsletter-text {
+    font-size: 20px;
+    color: white;
+}
+

@@ -1,0 +1,165 @@
+.nav {
+  background-color: #F1F1F1;
+  height: 100px;
+  width: auto;
+}
+
+/* CSS HERO */
+.img-hero {
+  background-image: url("../IMG/imghero.png");
+}
+
+.cont-hero {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.tittle-hero {
+  font-size: 50px;
+}
+
+.text-hero {
+  font-size: 25px;
+}
+
+/* CSS NOTA */
+.nota-dimension {
+  height: 300px;
+  width: 100%;
+}
+
+.nota {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nota .nota-text {
+  font-size: 20px;
+  font-style: italic;
+}
+
+/* CSS FAQ */
+.content {
+  background-color: #E4E4E4;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.card-title {
+  color: #486DB7;
+  font-size: 30px;
+  padding-bottom: 10px;
+}
+
+.faq-text {
+  font-size: 20px;
+  text-align: center;
+}
+
+.collapse-title {
+  font-size: 25px;
+  text-align: center;
+}
+
+/* CSS FORMS */
+.content-forms {
+  background-color: #E4E4E4;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 50% 50%;
+      grid-template-columns: 50% 50%;
+  justify-items: center;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.card-text {
+  font-size: 20px;
+  height: 200px;
+}
+
+.img {
+  width: auto;
+  height: 180px;
+}
+
+.card-form {
+  width: 400px;
+}
+
+/* CSS FOOTER */
+.color-footer {
+  background-color: #7D7D7D;
+}
+
+.content-footer {
+  height: 720px;
+}
+
+.newsletter-footer {
+  height: 350px;
+}
+
+.newsletter-footer .newsletter-title {
+  font-size: 25px;
+  color: white;
+}
+
+.newsletter-footer .newsletter-text {
+  font-size: 17px;
+  color: white;
+}
+
+/* MediaQuery */
+@media (max-width: 592px) {
+  .img-logo {
+    width: 200px;
+  }
+  .search {
+    width: 100px;
+  }
+  .content-forms {
+    background-color: #E4E4E4;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-rows: 50% 50%;
+        grid-template-rows: 50% 50%;
+    -ms-grid-columns: auto;
+        grid-template-columns: auto;
+    gap: 8px;
+    justify-items: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  .newsletter-title {
+    font-size: 20px;
+    color: white;
+  }
+  .newsletter-text {
+    font-size: 15px;
+    color: white;
+  }
+  .link-text {
+    font-size: 12px;
+    gap: 40px;
+  }
+}
+/*# sourceMappingURL=sass.css.map */

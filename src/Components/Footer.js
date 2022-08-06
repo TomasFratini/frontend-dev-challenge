@@ -23,7 +23,7 @@ const Footer = () => {
                 
         </div> 
         <div class="divider"></div> 
-        <div class="grid card color-footer rounded-box footer content">
+        <div class="grid card color-footer rounded-box footer">
         <footer class="footer footer-center text-white">
                 <div class="grid grid-flow-col gap-16  link-text">
                     <a href="/" class="link link-hover">Política de Cookies</a> 

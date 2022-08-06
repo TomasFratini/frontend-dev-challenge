@@ -5,8 +5,6 @@
 }
 
 
-
-
 /* CSS HERO */
 
 .img-hero {
@@ -40,13 +38,14 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    .nota-text {
+        font-size: 20px;
+        font-style: italic;
+    }
 
 }
 
-.nota-text {
-    font-size: 20px;
-    font-style: italic;
-}
+
 
 /* CSS FAQ */
 
@@ -107,20 +106,14 @@
 
 .newsletter-footer {
     height: 350px;
-}
-
-.content {
-    width: auto;
-}
-
-.newsletter-title {
-    font-size: 25px;
-    color: white;
-}
-
-.newsletter-text {
-    font-size: 17px;
-    color: white;
+    .newsletter-title {
+        font-size: 25px;
+        color: white;
+    }
+    .newsletter-text {
+        font-size: 17px;
+        color: white;
+    }
 }
 
 /* MediaQuery */ 

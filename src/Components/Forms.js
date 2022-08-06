@@ -84,7 +84,7 @@ const Forms = () => {
                 </div>
             </div>
         </div>
-        <div className="card-form card-compact border-base-300 bg-base-100 shadow-xl">
+        <div className="card-form card-compact border-base-300 bg-base-100 shadow-xl card-content">
             <figure><img className="content" src={card} alt="card" /></figure>
             <div className="card-body">
                 <h2 className="card-title">Colapso mental: cuando siento el peso del mundo sobre mí</h2>

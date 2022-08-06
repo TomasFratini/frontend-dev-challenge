@@ -23,9 +23,9 @@ const Footer = () => {
                 
         </div> 
         <div class="divider"></div> 
-        <div class="grid card color-footer rounded-box content footer ">
+        <div class="grid card color-footer rounded-box footer content">
         <footer class="footer footer-center text-white">
-                <div class="grid grid-flow-col gap-20 text-footer">
+                <div class="grid grid-flow-col gap-16  link-text">
                     <a href="/" class="link link-hover">Política de Cookies</a> 
                     <a href="/" class="link link-hover">Política de Privacidad</a> 
                     <a href="/" class="link link-hover">Términos y condiciones de uso</a> 

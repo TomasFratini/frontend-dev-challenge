@@ -50,7 +50,7 @@ const Forms = () => {
                     <label className="label">
                         <span className="label-text tipografia text-xl">Su correo electronico *</span>
                     </label>
-                    <label className="input-group input-group-vertical">
+                    <label className="input-group input-group-vertical ">
                         <input 
                         value={form.email}
                         onBlur={handleBlur} 
@@ -58,7 +58,7 @@ const Forms = () => {
                         type="email" 
                         name="email" 
                         placeholder="info@site.com"
-                        className="input input-bordered" 
+                        className="input input-bordered input-forms" 
                         required/>
                         {errors.email && <p className="tipografia" style={styles}>{errors.email}</p>}
                     </label>
@@ -84,8 +84,8 @@ const Forms = () => {
                 </div>
             </div>
         </div>
-        <div className="card card-compact border-base-300 w-96 bg-base-100 shadow-xl">
-            <figure><img className="" src={card} alt="card" /></figure>
+        <div className="card-form card-compact border-base-300 bg-base-100 shadow-xl">
+            <figure><img className="content" src={card} alt="card" /></figure>
             <div className="card-body">
                 <h2 className="card-title">Colapso mental: cuando siento el peso del mundo sobre mí</h2>
                 <p className="card-text">A veces nos sentimos como Atlas, aquel titán al que Zeus castigó y le obligó a llevar el peso de…</p>
